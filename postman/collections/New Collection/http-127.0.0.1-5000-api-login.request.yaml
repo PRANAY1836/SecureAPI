@@ -1,0 +1,17 @@
+$kind: http-request
+name: http://127.0.0.1:5000/api/login
+description: ""
+url: http://127.0.0.1:5000/api/login
+method: POST
+body:
+  type: json
+  content: "{\r
+
+    \    \"email\": \"pranay@example.com\",\r
+
+    \    \"password\": \"<YOUR_LOCAL_TEST_PASSWORD>"\r
+
+    }"
+auth:
+  type: bearer
+order: 1791145221690
